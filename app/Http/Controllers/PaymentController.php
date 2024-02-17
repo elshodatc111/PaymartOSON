@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
 class PaymentController extends Controller{
-    private $token = "Bi5OFlnhX7cp6UCee4etdzpShFZQyHtFVKoH3gb5GQkcGnnp";
-    private $merchantId = 2274;
+    private $token = "TOKEN";
+    private $merchantId = "Metchend_ID";
     private $all_status = [
         'REGISTRED' => 1,
         'ON_PROGRESS' => 1,
